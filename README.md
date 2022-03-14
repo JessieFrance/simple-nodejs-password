@@ -16,7 +16,7 @@ NodeJS's built-in `scrypt` and `randomBytes` functions from the native NodeJS [`
 
 ### Creating a Hashed Password with `toHash`
 
-Given a user's text password that is stored in the variable `someText`, the `toHash` function creates a salted, hashed password with a length of 145 characters:
+Given a user's text password that is stored in the variable `someText`, the `toHash` function creates a salted, hashed password:
 
 ```javascript
 const hashedPassword = await toHash({ password });

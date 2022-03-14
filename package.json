@@ -1,5 +1,5 @@
 {
-  "name": "simple-password-manager",
+  "name": "simple-nodejs-password",
   "version": "0.1.0",
   "description": "A lightweight password manager for NodeJS applications",
   "main": "./lib/index.js",

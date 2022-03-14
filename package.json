@@ -25,8 +25,8 @@
   ],
   "author": "Jessie France (https://github.com/jessiefrance)",
   "license": "MIT",
-  "bugs": "https://github.com/JessieFrance/shelljs-plugin-help/issues",
-  "homepage": "https://github.com/JessieFrance/shelljs-plugin-help",
+  "bugs": "https://github.com/JessieFrance/simple-nodejs-password/issues",
+  "homepage": "https://github.com/JessieFrance/simple-nodejs-password",
   "devDependencies": {
     "@types/node": "^17.0.21",
     "@typescript-eslint/eslint-plugin": "^5.13.0",

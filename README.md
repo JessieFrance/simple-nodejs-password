@@ -1,5 +1,6 @@
 # Simple NodeJS Password
 
+![npm](https://img.shields.io/npm/v/simple-nodejs-password?style=flat-square)
 [![Actions Status](https://github.com/JessieFrance/simple-nodejs-password/workflows/Build%20and%20Test/badge.svg)](https://github.com/JessieFrance/simple-nodejs-password/actions)
 [![GitHub license](https://img.shields.io/github/license/JessieFrance/simple-nodejs-password?style=flat-square)](https://github.com/JessieFrance/simple-nodejs-password/blob/main/LICENSE)
 
@@ -11,6 +12,8 @@ The `simple-nodejs-password` package is a tool for hashing and comparing passwor
 NodeJS's built-in `scrypt` and `randomBytes` functions from the native NodeJS [`crypto` package ](https://nodejs.org/api/crypto.html) to produce uniquely hashed passwords.
 
 ## Installation
+
+    npm i simple-nodejs-password
 
 ## Examples
 

@@ -1,5 +1,8 @@
 # Simple NodeJS Password
 
+[![Actions Status](https://github.com/JessieFrance/simple-nodejs-password/workflows/Build%20and%20Test/badge.svg)](https://github.com/JessieFrance/simple-nodejs-password/actions)
+[![GitHub license](https://img.shields.io/github/license/JessieFrance/simple-nodejs-password?style=flat-square)](https://github.com/JessieFrance/simple-nodejs-password/blob/main/LICENSE)
+
 > A lightweight password manager for NodeJS applications.
 
 ## Introduction

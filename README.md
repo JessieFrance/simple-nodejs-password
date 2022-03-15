@@ -2,9 +2,10 @@
 
 ![npm](https://img.shields.io/npm/v/simple-nodejs-password?style=flat-square)
 [![Actions Status](https://github.com/JessieFrance/simple-nodejs-password/workflows/Build%20and%20Test/badge.svg)](https://github.com/JessieFrance/simple-nodejs-password/actions)
+[![codecov](https://codecov.io/gh/JessieFrance/simple-nodejs-password/branch/main/graph/badge.svg)](https://codecov.io/gh/JessieFrance/simple-nodejs-password)
 [![GitHub license](https://img.shields.io/github/license/JessieFrance/simple-nodejs-password?style=flat-square)](https://github.com/JessieFrance/simple-nodejs-password/blob/main/LICENSE)
 
-> A lightweight password manager for NodeJS applications.
+> A lightweight password hashing tool for NodeJS applications.
 
 ## Introduction
 

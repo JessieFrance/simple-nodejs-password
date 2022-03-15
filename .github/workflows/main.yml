@@ -23,10 +23,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm run test
+      - run: npm run test:coverage
       - name: Lint once
         run: npm run lint
         if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
       - name: Build once
         run: npm run build
         if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
+      - uses: codecov/codecov-action@v2
+        with:
+          fail_ci_if_error: true

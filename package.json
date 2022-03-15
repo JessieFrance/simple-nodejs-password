@@ -1,7 +1,7 @@
 {
   "name": "simple-nodejs-password",
   "version": "0.1.1",
-  "description": "A lightweight password manager for NodeJS applications",
+  "description": "A lightweight password hashing tool for NodeJS applications",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "test": "ava",
-    "test:coverage": "nyc ava --timeout=3000",
+    "test:coverage": "nyc --reporter=text --reporter=lcov ava --timeout=3000",
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

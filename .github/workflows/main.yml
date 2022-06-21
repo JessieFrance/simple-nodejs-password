@@ -30,6 +30,12 @@ jobs:
       - name: Build once
         run: npm run build
         if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
+      - name: Check that TypeScript Example runs once
+        run: npm run tsexample1 | grep "The compare() function"
+        if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
+      - name: Check that JavaScript Example runs once
+        run: npm run jsexample1 | grep "toHash() and compare() functions"
+        if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
       - uses: codecov/codecov-action@v2
         with:
           fail_ci_if_error: true

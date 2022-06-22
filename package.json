@@ -56,6 +56,6 @@
     "*.{js,json,md}": "prettier --write"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=v12.22.12"
   }
 }

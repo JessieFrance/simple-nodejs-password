@@ -36,6 +36,6 @@ jobs:
       - name: Check that JavaScript Example runs once
         run: npm run jsexample1 | grep "toHash() and compare() functions"
         if: matrix.os == 'ubuntu-latest' && matrix.node-version == '14'
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v3
         with:
           fail_ci_if_error: true

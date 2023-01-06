@@ -30,7 +30,7 @@
   "bugs": "https://github.com/JessieFrance/simple-nodejs-password/issues",
   "homepage": "https://github.com/JessieFrance/simple-nodejs-password",
   "devDependencies": {
-    "@types/node": "17.0.21",
+    "@types/node": "18.11.18",
     "@typescript-eslint/eslint-plugin": "5.48.0",
     "@typescript-eslint/parser": "5.48.0",
     "ava": "4.3.3",
@@ -56,6 +56,6 @@
     "*.{ts,js,json,md}": "prettier --write"
   },
   "engines": {
-    "node": ">=v12.22.12"
+    "node": ">=v18.13.0"
   }
 }

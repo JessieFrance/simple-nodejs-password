@@ -30,7 +30,7 @@
   "bugs": "https://github.com/JessieFrance/simple-nodejs-password/issues",
   "homepage": "https://github.com/JessieFrance/simple-nodejs-password",
   "devDependencies": {
-    "@types/node": "17.0.21",
+    "@types/node": "17.0.45",
     "@typescript-eslint/eslint-plugin": "5.59.11",
     "@typescript-eslint/parser": "5.59.11",
     "ava": "4.3.3",

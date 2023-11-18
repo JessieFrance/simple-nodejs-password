@@ -34,7 +34,7 @@
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "ava": "4.3.3",
-    "eslint": "8.53.0",
+    "eslint": "8.54.0",
     "eslint-config-airbnb-typescript-prettier": "5.0.0",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
